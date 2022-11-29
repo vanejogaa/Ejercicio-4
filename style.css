@@ -22,23 +22,32 @@ nav::after after{
 ul{
     display: flex;
 }
-.nav__ul--elements > li{
+.elementos > li{
     padding: 10px;
     display: flex;
     align-items: center;
     color: white;
 }
-.nav__ul--icons > li{
-    width: 10%;
+.nav_ul--anchors > li{
+    padding: 15px;
     display: flex;
     align-items:center;
+    color: white;
 }
+.nav_ul--icons > li{
+    width: 10%;
+    display: flex;
+    align-items: center;
+}
+
 .logo{
     width: 100%;
 }
+
 li img{
     width: 50%;
 }
+
 .header__div{
     position: absolute;
     top: 80%;
@@ -55,4 +64,24 @@ li img{
     padding: 10px;
     display: flex;
     align-items: center;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+}
+
+.mundo {
+    display: flex;
+    flex-direction: column;
+}
+
+.gama {
+    display: flex;
+    flex-direction: column;
+}
+
+.siguenos {
+    display: flex;
+    flex-direction: column;
 }
