@@ -60,10 +60,17 @@ li img{
     border: none;
     border-radius: 10px;
 }
-.main__ul--models{
-    padding: 10px;
+.series{
+    padding: 15px;
     display: flex;
     align-items: center;
+    color: grey;
+}
+.main__ul--models> li{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    color: grey;
 }
 
 .contacto {
